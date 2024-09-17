@@ -1,5 +1,5 @@
 import pytest
-from statistics import mean, median, mode, standard_deviation
+from my_statistics import mean, median, mode, standard_deviation
 
 # Набор тестовых данных
 test_data = [10, 20, 20, 20, 30, 40, 50]
