@@ -1,4 +1,4 @@
-import statistics
+import statistics as stats
 import math
 
 def mean(numbers):
@@ -11,13 +11,13 @@ def median(numbers):
     """Функция для вычисления медианы."""
     if not numbers:
         raise ValueError("Список чисел не может быть пустым.")
-    return statistics.median(numbers)
+    return stats.median(numbers)
 
 def mode(numbers):
     """Функция для вычисления моды."""
     if not numbers:
         raise ValueError("Список чисел не может быть пустым.")
-    return statistics.mode(numbers)
+    return stats.mode(numbers)
 
 def standard_deviation(numbers):
     """Функция для вычисления стандартного отклонения."""
